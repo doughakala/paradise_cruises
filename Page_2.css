@@ -1,0 +1,283 @@
+/*
+  Webproject Style Sheet
+   Author: Hakala
+   Date: April 2017
+
+
+
+*/
+
+
+
+
+
+
+*
+{
+   font-family: 'Lucida Calligraphy', 'Apple Chancery', cursive;
+}
+
+
+body
+{
+
+  min-height:80%;
+  padding:10px;
+  background: url(background1.png) no-repeat;   /* Carribean background */
+  background-size: cover;
+  padding-bottom:60px;   /* Height of the footer */
+}
+
+header
+{
+  position:relative;
+  outline: 2px solid rgb(218, 147, 14);
+  background-color: rgba(45, 152, 187, 0.85);
+  top: 0;
+  float: right;
+}
+
+#middle2 h1
+{
+  color: yellow;
+
+  font-size: 200%;
+  font-style: italic;
+  text-align: center;
+  line-height: 0.5;
+}
+
+#middle2 p
+{
+  color: yellow;
+  clear: both;
+  font-size: 100%;
+  font-style: italic;
+  text-align: center;
+}
+
+
+
+
+  
+}
+
+figure img
+{
+  border: 2px solid rgb(218, 147, 14);
+  display: block;
+  margin: 30px auto 10px;
+  width: 100%;
+}
+
+figcaption
+{
+  color: yellow;
+  font-size: 200%;
+  font-style: italic;
+  text-align: center;
+  background-color: rgba(45, 152, 187, 0.85);
+  outline: 2px solid rgb(218, 147, 14);
+}
+
+/* Setting up a grid */
+
+#main .offer1
+{
+  
+  font-size: 225%;
+  text-align: center;
+  color: rgb(19, 66, 81);
+  background-color: yellow;
+  outline: 2px solid rgb(218, 147, 14);
+  float: left;
+  width: 1140px;
+  height: 100px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-left: 10px;
+}
+
+#main .portleft
+{
+  outline: 2px solid rgb(218, 147, 14);
+
+  clear: left;
+  float: left;
+
+  width: 290px;
+  height: 300px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  margin-right: 240px;
+}
+
+#main .portleft1
+{
+  position: relative;
+  Top: -350px;
+  outline: 2px solid rgb(218, 147, 14);
+
+  clear: left;
+  float: left;
+
+  width: 290px;
+  height: 300px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  margin-right: 240px;
+}
+
+#main .port
+{
+  outline: 2px solid rgb(218, 147, 14);
+  background-color: rgba(45, 152, 187, 0.85);
+  float: left;
+
+  width: 290px;
+  height: 300px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#main .port1
+{
+  position: relative;
+  Top: -350px;
+  outline: 2px solid rgb(218, 147, 14);
+  background-color: rgba(45, 152, 187, 0.85);
+  float: left;
+
+  width: 290px;
+  height: 300px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#main h1
+{
+  margin: 0;
+  color: black;
+  background-color: rgb(218, 147, 14);
+  font-size: 16px;
+  letter-spacing: 2px;
+  text-align: center;
+  height: 25px;
+  font-variant: small-caps;
+  outline: red;
+}
+
+#main .offer2
+{
+  position: relative;
+  Top: -5px;
+  font-size: 200%;
+  text-align: left;
+  list-style-image: url(wheel1.png);
+  color: rgb(19, 66, 81);
+  background-color: yellow;
+  outline: 2px solid rgb(218, 147, 14);
+  float: left;
+  width: 300px;
+  height: 640px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-left: 20px;
+}
+
+
+
+#middle figure
+{
+  margin-top:150px;
+  float: left;
+  width: 15%;
+
+}
+  
+#middle figure img
+{
+  display: block;
+  border: 2px solid rgb(218, 147, 14)
+}
+
+nav ul
+{
+  list-style-image: url(wheel1.png);
+}
+  
+nav.verticalNAV
+{
+  margin-top:30px;
+  float: right;
+  width: 20%;
+  background-color: rgba(45, 152, 187, 0.7);
+
+}
+
+
+
+nav.verticalNAV a
+{
+  border-top: 1px solid rgb(218, 147, 14);
+  border-top: 1px solid rgb(218, 147, 14);
+  color: yellow;
+  display: block;
+  line-height: 2.7em;
+  text-decoration: none;
+
+
+}
+
+nav.verticalNAV a:hover
+{
+  background-color: rgb(0, 96, 87);
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+#middle2 h1
+{
+  color: yellow;
+  clear: both;
+  font-size: 200%;
+  font-style: italic;
+  text-align: center;
+  line-height: 0.5;
+}
+#middle2 p
+{
+  color: yellow;
+  clear: both;
+  font-size: 100%;
+  font-style: italic;
+  text-align: center;
+}
+
+footer
+{
+  width: 80%;
+  position: relative;
+  margin-left: 10%;
+}
+
+footer p
+{
+  clear: both;
+  margin-top: 50px;
+
+  background-color: yellow;
+  outline: 2px solid rgb(218, 147, 14);
+  padding-top:10px;
+  color: rgb(19, 66, 81);
+  text-align: center;
+  font-style: italic;
+  line-height: 1.2;
+  height:60px;
+
+}

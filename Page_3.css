@@ -1,0 +1,91 @@
+/*
+  Webproject Style Sheet
+   Author: Hakala
+   Date: April 2017
+
+
+
+*/
+
+
+
+
+
+
+*
+{
+   font-family: 'Lucida Calligraphy', 'Apple Chancery', cursive;
+}
+
+
+body
+{
+ background: rgb(146, 208, 228);   /* Carribean background */
+}
+
+header
+{
+  position:relative;
+  outline: 2px solid rgb(218, 147, 14);
+  background-color: rgba(45, 152, 187, 0.85);
+  top: 0;
+  float: right;
+}
+
+
+section h1
+{
+  margin-top: 15px;
+  color: rgb(141, 96, 10);
+  font-size: 300%;
+  font-variant: small-caps;
+  line-height: 0.80;
+}
+
+section figure
+{
+  float: left;
+  margin: 20px;
+}
+section figure img
+{
+  border: 5px inset rgb(218, 147, 14);
+  display: block;
+
+}
+
+section figure figcaption
+{
+  font-size: 75%;
+  font-style: italic;
+  text-align: center;
+}
+
+
+
+
+
+
+
+footer
+{
+  width: 80%;
+  position: relative;
+  margin-left: 10%;
+}
+
+footer p
+{
+  clear: both;
+  margin-top: 50px;
+
+  background-color: yellow;
+  outline: 2px solid rgb(218, 147, 14);
+  padding-top:10px;
+  color: rgb(19, 66, 81);
+  text-align: center;
+  font-style: italic;
+  line-height: 1.2;
+  height:60px;
+
+}

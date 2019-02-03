@@ -1,0 +1,21 @@
+/*
+  Webproject Style Sheet
+   Author: Hakala
+   Date: April 2017
+
+
+*/
+
+
+
+
+
+
+#main .buffer1
+{
+  outline: 2px solid orange;
+  background-color: rgba(45, 152, 187, 1.0);
+  float: left;
+  width: 1571px;   /* effective window is actually 1575 pixels wide */
+  height: 750px;
+}
